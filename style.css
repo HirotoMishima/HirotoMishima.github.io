@@ -311,7 +311,7 @@ main {
 
 .app-link {
     color: lightskyblue;
-    border-bottom: 1px solid #7B7B7B;
+    border-bottom: 1px solid #7b7b7b;
 }
 
 .main-center {
@@ -322,6 +322,23 @@ main {
 .main-center span {
     margin-left: 20px;
     border-bottom: 1px solid #7B7B7B;
+}
+
+
+.skill-list {
+    display: flex;
+    justify-content: space-between;
+    /* 横文字にする */
+    flex-wrap: wrap;
+}
+
+.skill-item{
+    width: 30%;
+    background-color: #b8b8b8;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 /* .exam-section {
