@@ -224,7 +224,7 @@ main {
 
 .main-right {
     width: 100%;
-    height: 750px;
+    height: auto;
 }
 
 /*
@@ -238,6 +238,15 @@ main {
 */
 
 .CafeApp {
+    display: block;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+.sequence {
     display: block;
     width: 400px;
     height: 600px;
@@ -376,6 +385,12 @@ main {
     justify-content: center;
 }
 
+.introduction-range {
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
 /* 右側のコンテンツ */
 .main-left {
     width: 100%;
@@ -487,6 +502,19 @@ main {
 }
 
 .app-name {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #7B7B7B;
+    height: 50px;
+    width: 250px;
+    line-height: 50px;
+    letter-spacing: 7px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.app-name2 {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -646,7 +674,7 @@ footer p {
     }
     
     .main-right {
-        height: 750px;
+        height: auto;
     }
     
     .section {
