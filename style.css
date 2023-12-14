@@ -249,8 +249,9 @@ main {
 .sequence {
     display: block;
     width: 400px;
-    height: 600px;
+    height: auto;
     margin: 0 auto;
+    margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 15px;
 }
@@ -273,7 +274,7 @@ main {
 }
 
 .socialLink {
-    margin-left: 220px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -389,6 +390,23 @@ main {
     width: 100%;
     display: flex;
     height: auto;
+}
+
+.kaggle-section {
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* 画面の高さいっぱいに表示されるようにする */
+}
+
+.kaggle-section li {
+    margin-left: 400px;
+}
+
+.kaggle-section li h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #7B7B7B;
 }
 
 /* 右側のコンテンツ */
@@ -520,9 +538,9 @@ main {
     font-weight: bold;
     border: 1px solid #7B7B7B;
     height: 50px;
-    width: 250px;
+    width: 300px;
     line-height: 50px;
-    letter-spacing: 7px;
+    letter-spacing: 6px;
     border-radius: 15px;
     margin-bottom: 50px;
 }
@@ -588,6 +606,8 @@ footer {
     border-top: 1px solid #7B7B7B;
     height: 50px;
     text-align: center;
+    justify-content: center;
+    width: 100%;
 }
 
 footer p {
